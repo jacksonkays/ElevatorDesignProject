@@ -17,7 +17,7 @@ title: Elevator Design Project
 description: >- # this means to ignore newlines until "baseurl:"
   Elevator Redesign Project for Texas Tech Human Computer Interaction Class, redesigning elevator controls utilizing Processing
   and GitHub Pages
-baseurl: "/ElevatorDesignProject" # the subpath of your site, e.g. /blog
+baseurl: "/p1.jackson.kays" # the subpath of your site, e.g. /blog
 url: "http://jacksonkays.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
