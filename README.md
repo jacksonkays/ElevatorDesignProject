@@ -1,5 +1,5 @@
 <h2>Links</h2>
-<a href="https://jacksonkays.github.io/p1.jackson.kays"/>Presentation Page</a> <br />
+[Presentation Page](https://jacksonkays.github.io/p1.jackson.kays) <br />
 <a href="https://github.com/jacksonkays/p1.jackson.kays"/>Github Repository</a> <br />
 <a href="https://youtube.com/shorts/XkLqHPTbEM0?feature=share"/>Original Elevator Usage Video</a> <br /> 
 <a href="https://jacksonkays.github.io/p1.jackson.kays/demo.html"/>Demo Page</a> <br />
