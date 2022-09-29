@@ -1,4 +1,4 @@
-###Links
+## Links
 [Presentation Page] (https://jacksonkays.github.io/p1.jackson.kays/)
 [Github Repository] (https://github.com/jacksonkays/p1.jackson.kays)
 Processing Demo Link goes here
@@ -6,8 +6,8 @@ Processing Demo Link goes here
 
  ---
  
- ###Original Elevator Analysis
- #Elevator: Oliphant Hall, Tulsa University
+ ## Original Elevator Analysis
+ ### Elevator: Oliphant Hall, Tulsa University
  Overall, this elevator's design is standard and traditional for most modern elevators, however there are a few issues
  to its' operation. Firstly, as shown in the elevator usage video, the visual screen's indicator is not informing the user of its' movement
  between floors. While the button is lit to indicate it recognizes the user's choice of floor, the visual screen does not confirm to the user the descending 
@@ -21,7 +21,7 @@ Processing Demo Link goes here
  
  ---
  
- ###Elevator Use Case Analysis and Suggested Improvements
+ ### Elevator Use Case Analysis and Suggested Improvements
  For most elevator users, they primarily use the following functions:
  - Selecting a floor to travel to
  - Closing the doors to begin ascending/descending quicker
@@ -46,7 +46,7 @@ Processing Demo Link goes here
  
  In my design, the emergency panel of operations are clearly labeled with a large 'EMERGENCY' label, with actions to set off an emergency alarm, call a technician, or cancel these actions in the event of a false alarm. These buttons are prevalent and easily identifiable on the control panel, however they are smaller buttons and are situated away from the typical use-case buttons, such as floor selection and door operation buttons, to prevent any misclicks. Additionally, the closest 'emergency' button to the main control panel is the 'cancel' button, which will have no effect to the elevator's operation if accidentally clicked, since there would be no currently ongoing emergency alarm or call. 
  
- ###Elevator Indication, Affordances and Feedback 
+ ### Elevator Indication, Affordances and Feedback 
  The original elevator design in Oliphant Hall provides certain affordances expected in almost any elevator:
  - Selecting a floor button will take you to that floor, and buttons laid out in relation to building's floor layout
  - Floor selection is the primary operation, as the elevator will not have usage beyond those buttons 
@@ -62,8 +62,8 @@ Common mistakes that could be made in Oliphant Hall's Elevator in regards to ind
  
  I made indication and feedback a priority in my design, providing up to three indications for the current operation of the elevator back to the user. For each operation button on the control panel, if the button is selected, it lights up, confirming back to the user know their input was recorded. In addition, for the door operation and emergency buttons, there is an indication of 'Doors Opening...', 'Doors Closing...", and 'EMERGENCY' clearly visible on an incorporated 7" by 10" display to the user when they press the button to confirm their input. Finally, if the elevator is not currently moving, the display will show the current floor number in large font, as well as an indicator of the floor's position within the building to the user. This will help users better orientate themselves within the building, and allow them determine the appropriate floor choice. When a floor is selected, the floor number becomes either an up or down arrow indicating the motion of the elevator, along with the current floor indicator traversing up or down the building's floors, giving the user confirmation on the elevator's motion as well as informational feedback on the time to reach the floor they selected. 
  
- ###Accessibility
+ ### Accessibility
  Within my design, I made sure to include features and design choices that will help enhance usage of the elevator for users of all abilities. For each floor selection, there is an equivalent Braille translation of the floor number for those that are blind understand which floor they are selecting. In addition, my color choices for the display are accessible, as they allow a strong contrast for those with vision impairments or certain color blindness to discern clearly what is being conveyed on the display. 
  
- ###Design Sketch
+ ### Design Sketch
  ![designSketch](https://user-images.githubusercontent.com/55301666/192920324-ab27bb1b-856a-4c50-8c27-451c55ceca63.jpg)
