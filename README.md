@@ -1,7 +1,6 @@
 ## Links
 [Presentation Page] (https://jacksonkays.github.io/p1.jackson.kays/) <br />
 [Github Repository] (https://github.com/jacksonkays/p1.jackson.kays) <br />
-Processing Demo Link goes here <br /> 
 [Original Elevator Usage Video] (https://youtube.com/shorts/XkLqHPTbEM0?feature=share) <br /> 
 
  ---
@@ -50,6 +49,13 @@ https://user-images.githubusercontent.com/55301666/192925193-2108c96b-0025-4761-
  
  In my design, the emergency panel of operations are clearly labeled with a large 'EMERGENCY' label, with actions to set off an emergency alarm, call a technician, or cancel these actions in the event of a false alarm. These buttons are prevalent and easily identifiable on the control panel, however they are smaller buttons and are situated away from the typical use-case buttons, such as floor selection and door operation buttons, to prevent any misclicks. Additionally, the closest 'emergency' button to the main control panel is the 'cancel' button, which will have no effect to the elevator's operation if accidentally clicked, since there would be no currently ongoing emergency alarm or call. 
  
+ ---
+
+ ### Design Sketch
+ ![designSketch](https://user-images.githubusercontent.com/55301666/192920324-ab27bb1b-856a-4c50-8c27-451c55ceca63.jpg)
+ 
+ ---
+ 
  ### Elevator Indication, Affordances and Feedback 
  The original elevator design in Oliphant Hall provides certain affordances expected in almost any elevator:
  - Selecting a floor button will take you to that floor, and buttons laid out in relation to building's floor layout
@@ -76,11 +82,10 @@ Common mistakes that could be made in Oliphant Hall's Elevator in regards to ind
  
  ![ProcessingStaticIndication](https://user-images.githubusercontent.com/55301666/192924708-4f3c65b4-8fcb-4298-87a5-f7fb53054410.png)
  ![ProcessingFloorOperation](https://user-images.githubusercontent.com/55301666/192924440-a9693cb8-40a7-46de-ab59-d03abac1fd88.gif)
+ 
+ ---
 
  ### Accessibility
  Within my design, I made sure to include features and design choices that will help enhance usage of the elevator for users of all abilities. For each floor selection, there is an equivalent Braille translation of the floor number for those that are blind understand which floor they are selecting. In addition, my color choices for the display are accessible, as they allow a strong contrast for those with vision impairments or certain color blindness to discern clearly what is being conveyed on the display. 
  
  ![ProcessingAccessibility](https://user-images.githubusercontent.com/55301666/192924592-b513daca-441d-4c6e-8871-3bd3ea33032b.png)
-
- ### Design Sketch
- ![designSketch](https://user-images.githubusercontent.com/55301666/192920324-ab27bb1b-856a-4c50-8c27-451c55ceca63.jpg)
