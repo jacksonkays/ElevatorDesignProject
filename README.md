@@ -2,7 +2,7 @@
 [Presentation Page](https://jacksonkays.github.io/p1.jackson.kays) <br />
 [Github Repository](https://github.com/jacksonkays/p1.jackson.kays) <br />
 [Original Elevator Usage Video](https://youtube.com/shorts/XkLqHPTbEM0?feature=share) <br /> 
-[Demo Page](https://jacksonkays.github.io/p1.jackson.kays/demo.html) <br />
+[Demo Video](##Demo-Video)
  
  ---
  
@@ -90,3 +90,10 @@ Common mistakes that could be made in Oliphant Hall's Elevator in regards to ind
  Within my design, I made sure to include features and design choices that will help enhance usage of the elevator for users of all abilities. For each floor selection, there is an equivalent Braille translation of the floor number for those that are blind understand which floor they are selecting. In addition, my color choices for the display are accessible, as they allow a strong contrast for those with vision impairments or certain color blindness to discern clearly what is being conveyed on the display. 
  
  ![ProcessingAccessibility](https://user-images.githubusercontent.com/55301666/192924592-b513daca-441d-4c6e-8871-3bd3ea33032b.png)
+ 
+ ## Demo Video
+ 
+
+https://user-images.githubusercontent.com/55301666/192936594-7a66b1df-d2f7-4d6a-b13b-1c8c6ab852a7.mp4
+
+
