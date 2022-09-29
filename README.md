@@ -2,7 +2,7 @@
 [Presentation Page](https://jacksonkays.github.io/p1.jackson.kays) <br />
 [Github Repository](https://github.com/jacksonkays/p1.jackson.kays) <br />
 [Original Elevator Usage Video](https://youtube.com/shorts/XkLqHPTbEM0?feature=share) <br /> 
-[Demo Video](##Demo-Video)
+[Demo Video](#demo-video) <br />
  
  ---
  
@@ -91,9 +91,9 @@ Common mistakes that could be made in Oliphant Hall's Elevator in regards to ind
  
  ![ProcessingAccessibility](https://user-images.githubusercontent.com/55301666/192924592-b513daca-441d-4c6e-8871-3bd3ea33032b.png)
  
- ## Demo Video
+<div id="demo-video">
+ <h2>Demo Video</h2>
  
-
-https://user-images.githubusercontent.com/55301666/192936594-7a66b1df-d2f7-4d6a-b13b-1c8c6ab852a7.mp4
-
+ https://user-images.githubusercontent.com/55301666/192936594-7a66b1df-d2f7-4d6a-b13b-1c8c6ab852a7.mp4
+</div>
 
