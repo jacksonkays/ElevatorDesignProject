@@ -54,16 +54,27 @@ Processing Demo Link goes here <br />
  
  In this case, there was not much room for improvement, and I made sure to keep the floor selection button layout consistent with the old design, as I believed it was the most clear to users trying to reach certain floors. I slightly improved the 'doors open' and 'doors close' icons in relation to this elevator, by using two vertical lines in the icons as opposed to one vertical line to more clearly represent the opening and closing of the two sides of the door when operated. In addition, I moved the positioning of the door operation buttons closer to the floor selection buttons, as their high usage made sense to group the two groups of buttons together. 
  
+ ![ProcessingButtonLayout](https://user-images.githubusercontent.com/55301666/192924620-170c8815-5693-4f11-bd0f-793ec5d3c32c.png)
+
  One of the major issues in this particular elevator was its' lack of indication, confirmation and informational feedback to the user while in operation about what floor was selected, what the current floor is, if the elevator was moving, and when the elevator had arrived. In its' highest capacity, Oliphant Hall's elevator was only able to indicate that a floor was selcted, and sometimes those indicators were faulty. 
  
 Common mistakes that could be made in Oliphant Hall's Elevator in regards to indication and feedback:
 - Not knowing if the elevator is moving or not, and what direction it is moving
 - Not knowing if the floor you selected was accounted for by the elevator system 
  
- I made indication and feedback a priority in my design, providing up to three indications for the current operation of the elevator back to the user. For each operation button on the control panel, if the button is selected, it lights up, confirming back to the user know their input was recorded. In addition, for the door operation and emergency buttons, there is an indication of 'Doors Opening...', 'Doors Closing...", and 'EMERGENCY' clearly visible on an incorporated 7" by 10" display to the user when they press the button to confirm their input. Finally, if the elevator is not currently moving, the display will show the current floor number in large font, as well as an indicator of the floor's position within the building to the user. This will help users better orientate themselves within the building, and allow them determine the appropriate floor choice. When a floor is selected, the floor number becomes either an up or down arrow indicating the motion of the elevator, along with the current floor indicator traversing up or down the building's floors, giving the user confirmation on the elevator's motion as well as informational feedback on the time to reach the floor they selected. 
+ I made indication and feedback a priority in my design, providing up to three indications for the current operation of the elevator back to the user. For each operation button on the control panel, if the button is selected, it lights up, confirming back to the user know their input was recorded. In addition, for the door operation and emergency buttons, there is an indication of 'Doors Opening...', 'Doors Closing...", and 'EMERGENCY' clearly visible on an incorporated 7" by 10" display to the user when they press the button to confirm their input. 
  
+ ![ProcessingEmergencyIndication](https://user-images.githubusercontent.com/55301666/192924694-9a33a620-f21c-430e-a377-0491e0fb9651.png)
+![ProcessingStaticIndication](https://user-images.githubusercontent.com/55301666/192924708-4f3c65b4-8fcb-4298-87a5-f7fb53054410.png)
+
+ Finally, if the elevator is not currently moving, the display will show the current floor number in large font, as well as an indicator of the floor's position within the building to the user. This will help users better orientate themselves within the building, and allow them determine the appropriate floor choice. When a floor is selected, the floor number becomes either an up or down arrow indicating the motion of the elevator, along with the current floor indicator traversing up or down the building's floors, giving the user confirmation on the elevator's motion as well as informational feedback on the time to reach the floor they selected. 
+ 
+ ![ProcessingFloorOperation](https://user-images.githubusercontent.com/55301666/192924440-a9693cb8-40a7-46de-ab59-d03abac1fd88.gif)
+
  ### Accessibility
  Within my design, I made sure to include features and design choices that will help enhance usage of the elevator for users of all abilities. For each floor selection, there is an equivalent Braille translation of the floor number for those that are blind understand which floor they are selecting. In addition, my color choices for the display are accessible, as they allow a strong contrast for those with vision impairments or certain color blindness to discern clearly what is being conveyed on the display. 
  
+ ![ProcessingAccessibility](https://user-images.githubusercontent.com/55301666/192924592-b513daca-441d-4c6e-8871-3bd3ea33032b.png)
+
  ### Design Sketch
  ![designSketch](https://user-images.githubusercontent.com/55301666/192920324-ab27bb1b-856a-4c50-8c27-451c55ceca63.jpg)
