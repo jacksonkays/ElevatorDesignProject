@@ -1,8 +1,8 @@
 <h2>Links</h2>
 [Presentation Page](https://jacksonkays.github.io/p1.jackson.kays) <br />
-<a href="https://github.com/jacksonkays/p1.jackson.kays"/>Github Repository</a> <br />
-<a href="https://youtube.com/shorts/XkLqHPTbEM0?feature=share"/>Original Elevator Usage Video</a> <br /> 
-<a href="https://jacksonkays.github.io/p1.jackson.kays/demo.html"/>Demo Page</a> <br />
+[Github Repository](https://github.com/jacksonkays/p1.jackson.kays) <br />
+[Original Elevator Usage Video](https://youtube.com/shorts/XkLqHPTbEM0?feature=share) <br /> 
+[Demo Page](https://jacksonkays.github.io/p1.jackson.kays/demo.html) <br />
  
  ---
  
