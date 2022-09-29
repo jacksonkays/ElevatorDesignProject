@@ -92,6 +92,6 @@ Common mistakes that could be made in Oliphant Hall's Elevator in regards to ind
  ![ProcessingAccessibility](https://user-images.githubusercontent.com/55301666/192924592-b513daca-441d-4c6e-8871-3bd3ea33032b.png)
  
  <h2>Demo Video</h2> <br />
- 
- <video src="https://user-images.githubusercontent.com/55301666/192936594-7a66b1df-d2f7-4d6a-b13b-1c8c6ab852a7.mp4" controls="controls" style="max-width: 730px;"></video>
+ ![p1 jackson kays](https://user-images.githubusercontent.com/55301666/192938194-70281c18-9b3f-4ad1-89eb-8a83e661e9bc.gif)
+
 
