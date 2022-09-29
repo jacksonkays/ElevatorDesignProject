@@ -1,11 +1,8 @@
 ## Links
-[Presentation Page] (https://jacksonkays.github.io/p1.jackson.kays/)
-
-[Github Repository] (https://github.com/jacksonkays/p1.jackson.kays)
-
-Processing Demo Link goes here
-
-[Original Elevator Usage Video] (https://youtube.com/shorts/XkLqHPTbEM0?feature=share)
+[Presentation Page] (https://jacksonkays.github.io/p1.jackson.kays/) <br />
+[Github Repository] (https://github.com/jacksonkays/p1.jackson.kays) <br />
+Processing Demo Link goes here <br /> 
+[Original Elevator Usage Video] (https://youtube.com/shorts/XkLqHPTbEM0?feature=share) <br /> 
 
  ---
  
