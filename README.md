@@ -16,9 +16,9 @@
  ![IMG_5834](https://user-images.githubusercontent.com/55301666/192920508-00dfd798-2527-4714-a6b2-a30346547caa.jpg)
  
 <h2>Operation Video</h2> <br />
-https://user-images.githubusercontent.com/55301666/192925193-2108c96b-0025-4761-88a8-11d38146ccb0.mp4
 
- 
+<video src="https://user-images.githubusercontent.com/55301666/192925193-2108c96b-0025-4761-88a8-11d38146ccb0.mp4" controls="controls" style="max-width: 730px;"></video>
+
  Beyond faulty indicators, another issue with the current design is the displacement of the emergency buttons, and their location near other common usage buttons. As seen in the photos and video, the buttons allowing for trapped users in the elevator to signal an alarm, or call a technician for help, are located very close to the often-used "hold doors open" and "close doors" buttons. This could cause misinputs by users who might misclick one of the emergency buttons when just trying to operate the doors for the elevator. Additionally, some of the emergency buttons are also located above the floor selection panel, which could cause confusion for users who would be novices if put under an emergency in the elevator. 
  
  Overall, the design is mostly good, however there are areas for improvement stated above that I will improve on in my design. 
@@ -93,5 +93,5 @@ Common mistakes that could be made in Oliphant Hall's Elevator in regards to ind
  
  <h2>Demo Video</h2> <br />
  
- https://user-images.githubusercontent.com/55301666/192936594-7a66b1df-d2f7-4d6a-b13b-1c8c6ab852a7.mp4
+ <video src="https://user-images.githubusercontent.com/55301666/192936594-7a66b1df-d2f7-4d6a-b13b-1c8c6ab852a7.mp4" controls="controls" style="max-width: 730px;"></video>
 
