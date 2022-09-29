@@ -11,6 +11,7 @@ PImage braille4;
 PImage upArrow;
 PImage downArrow;
 PImage emergencyIndicator;
+PImage brushedMetalTexture;
 //button booleans
 boolean alarmOver = false;
 boolean callOver = false;
@@ -76,32 +77,31 @@ float floorIndicatorY = 575;
 
 void setup() {
   //Basic Setup
-  alarmIcon = loadImage("C:/Users/jacks/Downloads/alarmIcon.png");
+  alarmIcon = loadImage("ProcessingAssets/alarmIcon.png");
   alarmIcon.resize(50, 50);
-  callIcon = loadImage("C:/Users/jacks/Downloads/callIcon.png");
+  callIcon = loadImage("ProcessingAssets/callIcon.png");
   callIcon.resize(50,50);
-  doorClosingIcon = loadImage("C:/Users/jacks/Downloads/doorClosingIcon.png");
+  doorClosingIcon = loadImage("ProcessingAssets/doorClosingIcon.png");
   doorClosingIcon.resize(60,60);
-  doorOpeningIcon = loadImage("C:/Users/jacks/Downloads/doorOpeningIcon.png");
+  doorOpeningIcon = loadImage("ProcessingAssets/doorOpeningIcon.png");
   doorOpeningIcon.resize(75,75);
-  braille1 = loadImage("C:/Users/jacks/Downloads/braille1.png");
+  braille1 = loadImage("ProcessingAssets/braille1.png");
   braille1.resize(200,200);
-  braille2 = loadImage("C:/Users/jacks/Downloads/braille2.png");
+  braille2 = loadImage("ProcessingAssets/braille2.png");
   braille2.resize(200,200);
-  braille3 = loadImage("C:/Users/jacks/Downloads/braille3.png");
+  braille3 = loadImage("ProcessingAssets/braille3.png");
   braille3.resize(200,200);
-  braille4 = loadImage("C:/Users/jacks/Downloads/braille4.png");
+  braille4 = loadImage("ProcessingAssets/braille4.png");
   braille4.resize(200,200);
-  upArrow = loadImage("C:/Users/jacks/Downloads/upArrow.png");
+  upArrow = loadImage("ProcessingAssets/upArrow.png");
   upArrow.resize(200,300);
-  downArrow = loadImage("C:/Users/jacks/Downloads/downArrow.png");
+  downArrow = loadImage("ProcessingAssets/downArrow.png");
   downArrow.resize(200,300);
-  emergencyIndicator = loadImage("C:/Users/jacks/Downloads/emergencyIndicator.png");
+  emergencyIndicator = loadImage("ProcessingAssets/emergencyIndicator.png");
   emergencyIndicator.resize(100,100);
+  brushedMetalTexture = loadImage("ProcessingAssets/brushedMetal.jpg");
   size(1000, 1000);
   background(#AFADA8);
-  fill(#AFADA8);
-  rect(0,0, 1000, 1000);
   stroke(0);
   fill(#72B6F0);
   rect(50, 50, 500, 650);
@@ -276,14 +276,33 @@ void draw() {
     }
   }
   // doors opening/closing (if valid)
-  if ( openPressed ) {
-    fill(255);
-    textSize(40);
-    text("Doors Opening...", 270, 120);
-  } else if ( closePressed ) {
-    fill(255);
-    textSize(40);
-    text("Doors Closing...", 270, 120);
+  if ( openOver && mousePressed ) {
+    openColor = color(255, 0, 0);
+    if (currentFloor != 4) {
+      fill(255);
+      textSize(40);
+      text("Doors Opening...", 270, 120);
+    }
+    else {
+      fill(255);
+      textSize(40);
+      text("Doors Opening...", 270, 670);
+    }
+  } else if ( closeOver && mousePressed ) {
+    closeColor = color(255, 0, 0);
+    if (currentFloor != 4) {
+      fill(255);
+      textSize(40);
+      text("Doors Closing...", 270, 120);
+    }
+    else {
+      fill(255);
+      textSize(40);
+      text("Doors Closing...", 270, 670);
+    }
+  } else {
+    openColor = color(0);
+    closeColor = color(0);
   }
    //floor indicator
   fill(255);
@@ -427,24 +446,6 @@ void mousePressed() {
     alarmColor = color(0);
     callColor = color(0);
     emergencyPressed = false;
-  } else if ( openOver ) {
-    if (!inMotion) {
-      openPressed = !openPressed;
-    }
-    if ( openPressed ) {
-      openColor = color(255, 0, 0);
-    } else {
-      openColor = color(0);
-    }
-  } else if ( closeOver ) {
-    if (!inMotion) {
-       closePressed = !closePressed;
-    }
-    if ( closePressed ) {
-      closeColor = color(255, 0, 0);
-    } else {
-      closeColor = color(0);
-    }
   } else if ( oneOver && !emergencyPressed && !inMotion) {
     oneColor = color(255,0,0);
     requestedFloor = 1;
