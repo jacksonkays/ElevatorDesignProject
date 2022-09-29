@@ -5,8 +5,8 @@
 
  ---
  
- ## Original Elevator Analysis
- ### Elevator: Oliphant Hall, Tulsa University
+ ## Original Elevator Analysis <br />
+ ### Elevator: Oliphant Hall, Tulsa University <br />
  Overall, this elevator's design is standard and traditional for most modern elevators, however there are a few issues
  to its' operation. Firstly, as shown in the elevator usage video, the visual screen's indicator is not informing the user of its' movement
  between floors. While the button is lit to indicate it recognizes the user's choice of floor, the visual screen does not confirm to the user the descending 
@@ -14,7 +14,7 @@
  
  ![IMG_5834](https://user-images.githubusercontent.com/55301666/192920508-00dfd798-2527-4714-a6b2-a30346547caa.jpg)
  
- ### Operation Video
+ ### Operation Video <br />
 https://user-images.githubusercontent.com/55301666/192925193-2108c96b-0025-4761-88a8-11d38146ccb0.mp4
 
  
@@ -24,7 +24,7 @@ https://user-images.githubusercontent.com/55301666/192925193-2108c96b-0025-4761-
  
  ---
  
- ### Elevator Use Case Analysis and Suggested Improvements
+ ### Elevator Use Case Analysis and Suggested Improvements <br/> 
  For most elevator users, they primarily use the following functions:
  - Selecting a floor to travel to
  - Closing the doors to begin ascending/descending quicker
@@ -51,12 +51,12 @@ https://user-images.githubusercontent.com/55301666/192925193-2108c96b-0025-4761-
  
  ---
 
- ### Design Sketch
+ ### Design Sketch <br/>
  ![designSketch](https://user-images.githubusercontent.com/55301666/192920324-ab27bb1b-856a-4c50-8c27-451c55ceca63.jpg)
  
  ---
  
- ### Elevator Indication, Affordances and Feedback 
+ ### Elevator Indication, Affordances and Feedback <br />
  The original elevator design in Oliphant Hall provides certain affordances expected in almost any elevator:
  - Selecting a floor button will take you to that floor, and buttons laid out in relation to building's floor layout
  - Floor selection is the primary operation, as the elevator will not have usage beyond those buttons 
@@ -85,7 +85,7 @@ Common mistakes that could be made in Oliphant Hall's Elevator in regards to ind
  
  ---
 
- ### Accessibility
+ ### Accessibility <br />
  Within my design, I made sure to include features and design choices that will help enhance usage of the elevator for users of all abilities. For each floor selection, there is an equivalent Braille translation of the floor number for those that are blind understand which floor they are selecting. In addition, my color choices for the display are accessible, as they allow a strong contrast for those with vision impairments or certain color blindness to discern clearly what is being conveyed on the display. 
  
  ![ProcessingAccessibility](https://user-images.githubusercontent.com/55301666/192924592-b513daca-441d-4c6e-8871-3bd3ea33032b.png)
