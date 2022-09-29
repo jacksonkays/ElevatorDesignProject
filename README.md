@@ -15,6 +15,10 @@ Processing Demo Link goes here <br />
  
  ![IMG_5834](https://user-images.githubusercontent.com/55301666/192920508-00dfd798-2527-4714-a6b2-a30346547caa.jpg)
  
+ ### Operation Video
+https://user-images.githubusercontent.com/55301666/192925193-2108c96b-0025-4761-88a8-11d38146ccb0.mp4
+
+ 
  Beyond faulty indicators, another issue with the current design is the displacement of the emergency buttons, and their location near other common usage buttons. As seen in the photos and video, the buttons allowing for trapped users in the elevator to signal an alarm, or call a technician for help, are located very close to the often-used "hold doors open" and "close doors" buttons. This could cause misinputs by users who might misclick one of the emergency buttons when just trying to operate the doors for the elevator. Additionally, some of the emergency buttons are also located above the floor selection panel, which could cause confusion for users who would be novices if put under an emergency in the elevator. 
  
  Overall, the design is mostly good, however there are areas for improvement stated above that I will improve on in my design. 
@@ -65,10 +69,12 @@ Common mistakes that could be made in Oliphant Hall's Elevator in regards to ind
  I made indication and feedback a priority in my design, providing up to three indications for the current operation of the elevator back to the user. For each operation button on the control panel, if the button is selected, it lights up, confirming back to the user know their input was recorded. In addition, for the door operation and emergency buttons, there is an indication of 'Doors Opening...', 'Doors Closing...", and 'EMERGENCY' clearly visible on an incorporated 7" by 10" display to the user when they press the button to confirm their input. 
  
  ![ProcessingEmergencyIndication](https://user-images.githubusercontent.com/55301666/192924694-9a33a620-f21c-430e-a377-0491e0fb9651.png)
-![ProcessingStaticIndication](https://user-images.githubusercontent.com/55301666/192924708-4f3c65b4-8fcb-4298-87a5-f7fb53054410.png)
+ ![ProcessingDoorOperationIndication](https://user-images.githubusercontent.com/55301666/192925115-a2c118a4-6aeb-45a1-b50c-09befd2f71ae.png)
+
 
  Finally, if the elevator is not currently moving, the display will show the current floor number in large font, as well as an indicator of the floor's position within the building to the user. This will help users better orientate themselves within the building, and allow them determine the appropriate floor choice. When a floor is selected, the floor number becomes either an up or down arrow indicating the motion of the elevator, along with the current floor indicator traversing up or down the building's floors, giving the user confirmation on the elevator's motion as well as informational feedback on the time to reach the floor they selected. 
  
+ ![ProcessingStaticIndication](https://user-images.githubusercontent.com/55301666/192924708-4f3c65b4-8fcb-4298-87a5-f7fb53054410.png)
  ![ProcessingFloorOperation](https://user-images.githubusercontent.com/55301666/192924440-a9693cb8-40a7-46de-ab59-d03abac1fd88.gif)
 
  ### Accessibility
